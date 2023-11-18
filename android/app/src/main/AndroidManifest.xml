@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="unknown_number_whatsapp_sender"
+        android:label="Unknown Number Whatsapp Sender"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

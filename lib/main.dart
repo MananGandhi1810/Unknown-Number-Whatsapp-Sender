@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'presentation/home_page.dart';
 
 void main(){
-  runApp(RootApp());
+  runApp(const RootApp());
 }
 
 class RootApp extends StatelessWidget {
@@ -12,11 +12,11 @@ class RootApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Whatsapp Unknown Number Launcher',
+      title: 'Unknown Number Whatsapp Sender',
       theme: ThemeData(
         primarySwatch : Colors.blue,
       ),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
